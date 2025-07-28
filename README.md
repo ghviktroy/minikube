@@ -15,5 +15,8 @@ kubectl apply -f k8s/
 kubectl get all -o wide
 
 #Инвентаризация кластера (пример в Excel)
-Нода	ОС	Количество ядер	Память	IP-адрес	Установленное ПО
+№Нода	ОС	Количество ядер	Память	IP-адрес	Установленное ПО
 minikube	Container-Optimized OS	2	4GB	192.168.49.2	Docker, kube
+
+#Доступ к веб приложению
+minikube service web-service

@@ -1,3 +1,17 @@
+webapp-minikube/
+├── db/
+│   ├── Dockerfile
+│   └── init.sql
+├── web/
+│   ├── Dockerfile
+│   └── index.php
+├── k8s/
+│   ├── db-deployment.yaml
+│   ├── db-service.yaml
+│   ├── web-deployment.yaml
+│   └── web-service.yaml
+└── inventory.xlsx
+
 # minikube
 #Развертывание в Minikube
 #Сборка и загрузка образов:
